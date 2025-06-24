@@ -1,7 +1,7 @@
 # CHAZ Wind Hazard Maps
 
 This repository documents a CLIMADA‑compatible workflow that converts CHAZ tropical‑cyclone event sets into gridded wind‑hazard layers and summary figures, reproducible on an HPC cluster or a local workstation.
-
+```
 CHAZ-hazard-maps/
 │
 ├── README.md                 ← you are here
@@ -32,7 +32,7 @@ CHAZ-hazard-maps/
 └── data/                     ← output files used for figures & tables
     ├── basins.geojson        ← tbd
     └── world_grid_10km.nc    ← tbd
-
+```
 
 
 ### Prerequisites
