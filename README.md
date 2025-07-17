@@ -1,6 +1,6 @@
 # CHAZ Wind Hazard Maps
 
-This repository documents a CLIMADA‑compatible workflow that converts CHAZ tropical‑cyclone event sets into gridded wind‑hazard layers and summary figures, reproducible on an HPC cluster or a local workstation.
+This repository documents a CLIMADA-compatible workflow that converts CHAZ tropical cyclone event sets into gridded wind hazard layers and summary figures, which are reproducible on an HPC cluster or a local workstation.
 ```
 CHAZ-hazard-maps/
 │
@@ -48,7 +48,7 @@ All other dependencies (e.g., xarray, geopandas, cartopy) are already included i
 
 #### CHAZ Event Sets
 
-Raw CHAZ CMIP6 event files (≈ 7 TB) are not hosted in this repo.  Request access from the original authors: https://github.com/cl3225/CHAZ
+Raw CHAZ CMIP6 event files are not hosted in this repo.  Request access from the original authors: https://github.com/cl3225/CHAZ
 
 
 
