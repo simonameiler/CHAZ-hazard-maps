@@ -1,6 +1,6 @@
 # CHAZ Wind Hazard Maps
 
-This repository documents a CLIMADA‑compatible workflow that converts CHAZ tropical‑cyclone event sets into gridded wind‑hazard layers and summary figures, reproducible on an HPC cluster or a local workstation.
+This repository documents a CLIMADA-compatible workflow that converts CHAZ tropical cyclone event sets into gridded wind hazard layers and summary figures, which are reproducible on an HPC cluster or a local workstation.
 ```
 CHAZ-hazard-maps/
 │
@@ -36,7 +36,7 @@ CHAZ-hazard-maps/
 ```
 
 
-## Prerequisites
+### Prerequisites
 
 #### CLIMADA
 
