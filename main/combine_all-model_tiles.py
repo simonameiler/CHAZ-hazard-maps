@@ -41,7 +41,7 @@ def combine_tiles(input_dir, output_dir, base_pattern, variable):
         print(f"No tile NetCDF files found for pattern: {pattern}")
         return
 
-    print(f"🔍 Found {len(nc_files)} tiles for '{base_pattern}' / variable '{variable}'. Merging...")
+    print(f"Found {len(nc_files)} tiles for '{base_pattern}' / variable '{variable}'. Merging...")
 
     gdfs = []
     for f in nc_files:
@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
     scenarios = ["ssp245", "ssp370", "ssp585"]
     periods = ["base", "fut1", "fut2"]
-    cat = "CRH"
+    cat = "SD"
     wind = "H08"
 
     variable = "return_periods"  # or "exceedance_intensity"

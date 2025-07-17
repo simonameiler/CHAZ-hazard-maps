@@ -25,13 +25,14 @@ CHAZ-hazard-maps/
 │   ├── combine_all-model_tiles.py                   ← merge tiles for multi‑model output, from parallel
 │   └── hazard_map_utils.py                          ← helper functions for NetCDF/GeoDataFrame I/O
 │
-├── output/                   ← generating figures & tables for publication
-│   ├── plot_rp_maps.py
-│   └── plot_summary_panels.py
+├── output/                         ← generating figures & tables for publication
+│   ├── tech_valid_tab_ei_range.py  ← compute GCM specific min, max, median values at select locations - exceedance intensity maps
+│   ├── tech_valid_tab_ei_range.py  ← compute GCM specific min, max, median values at select locations - return period maps
+│   ├── tech_valid_figs.ipynb       ← generating publication figures
+│   └── tech_valid_tables.ipynb     ← generating publication tables
 │
-└── data/                     ← output files used for figures & tables
-    ├── basins.geojson        ← tbd
-    └── world_grid_10km.nc    ← tbd
+└── data/                     ← output files used for publication tables
+
 ```
 
 
@@ -55,6 +56,6 @@ Raw CHAZ CMIP6 event files (≈ 7 TB) are not hosted in this repo.  Request 
 
 If you use this code or the derived maps, please cite:
 
-Meiler, S. et al. (2025) Global tropical‑cyclone wind hazard maps derived from CHAZ event sets. Scientific Data. https://doi.org/10.XXXX/XXXXX
+Meiler, S. et al. (2025). Global tropical‑cyclone wind hazard maps derived from CHAZ event sets. submitted to _Scientific Data_.
 
 and the underlying CHAZ and CLIMADA references.

@@ -2,3 +2,6 @@ more_scripts/
 __pycache__/
 *.pyc
 .DS_Store
+output/tech_valid_tab_ei.py
+output/tech_valid_tab_rp.py
+output/tech_valid_figs_all.ipynb

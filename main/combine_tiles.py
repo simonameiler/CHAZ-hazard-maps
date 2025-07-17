@@ -6,7 +6,7 @@ from shapely.geometry import Point
 from pathlib import Path
 
 sys.path.append("/cluster/project/climate/meilers/scripts/columbia_haz_maps")
-from hazard_map_utils import gdf_to_raster
+from main.hazard_map_utils import gdf_to_raster
 
 
 def gdf_to_clean_netcdf(gdf, path, description, units, also_csv=False):
