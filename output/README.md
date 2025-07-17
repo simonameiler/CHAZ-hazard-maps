@@ -1,5 +1,8 @@
 # CHAZ Hazard Maps: Global coastal wind hazard maps from the CHAZ tropical cyclone model
 
+The dataset is temporarily available (for peer review only) via [Google Drive](\url{https://drive.google.com/drive/folders/1nsdokdBkcQflg7mQKcelk_Qp6WKHEXY8?usp=drive_link})
+and will be permanently archived in the Columbia University Dryad repository upon acceptance.
+
 ## Folder Structure Overview
 
 The dataset is organized first by hazard metric (`exceedance_intensity` or `return_periods`), then by file format (`csv`, `nc`, or `raster.nc`). Within each format, files are grouped as follows:
