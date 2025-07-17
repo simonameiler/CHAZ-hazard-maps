@@ -56,6 +56,6 @@ Raw CHAZ CMIP6 event files are not hosted in this repo.  Request access from the
 
 If you use this code or the derived maps, please cite:
 
-Meiler, S. et al. (2025). Global tropical‑cyclone wind hazard maps derived from CHAZ event sets. submitted to _Scientific Data_.
+Meiler, S. (2025). CHAZ Wind Hazard Maps. [![DOI](https://zenodo.org/badge/954313719.svg)](https://doi.org/10.5281/zenodo.16058513).
 
 and the underlying CHAZ and CLIMADA references.
